@@ -17,7 +17,7 @@ group :development do
   gem 'guard-cucumber'
   gem 'guard-rails'
   gem 'guard-rspec'
-  gem "haml-rails"
+
   gem 'rails_layout'
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
@@ -26,6 +26,7 @@ end
 group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem "haml-rails"
 end
 group :test do
   gem 'capybara'
